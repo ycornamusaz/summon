@@ -54,6 +54,7 @@ func Call(provider, specPath string) (string, error) {
 		stdErr bytes.Buffer
 	)
 	cmd := exec.Command(provider, specPath)
+	cmd.Env = append(os.Environ())
 	cmd.Stdout = &stdOut
 	cmd.Stderr = &stdErr
 	err := cmd.Run()
