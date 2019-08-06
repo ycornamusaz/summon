@@ -9,8 +9,8 @@ import (
 	"syscall"
 
 	"github.com/codegangsta/cli"
-	prov "github.com/cyberark/summon/provider"
 	"github.com/cyberark/summon/secretsyml"
+	prov "github.com/ycornamusaz/summon/provider"
 )
 
 type ActionConfig struct {

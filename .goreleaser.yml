@@ -32,8 +32,8 @@ checksum:
 
 brews:
   - description: CLI that provides on-demand secrets access for common DevOps tools.
-    homepage: https://github.com/cyberark/summon
-    url_template: https://github.com/cyberark/summon/releases/download/v{{.Version}}/summon-darwin-amd64.tar.gz
+    homepage: https://github.com/ycornamusaz/summon
+    url_template: https://github.com/ycornamusaz/summon/releases/download/v{{.Version}}/summon-darwin-amd64.tar.gz
     install: |
       bin.install "summon"
     test: |
@@ -47,7 +47,7 @@ brews:
 nfpms:
   - name_template: "{{.ProjectName}}"
     vendor: CyberArk
-    homepage: https://github.com/cyberark/summon
+    homepage: https://github.com/ycornamusaz/summon
     maintainer: Dustin Collins <dustin.collins@cyberark.com>
 
     description: CLI that provides on-demand secrets access for common DevOps tools.

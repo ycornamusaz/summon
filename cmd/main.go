@@ -6,8 +6,8 @@ import (
 	"os"
 
 	"github.com/codegangsta/cli"
-	"github.com/cyberark/summon/internal/command"
-	"github.com/cyberark/summon/pkg/summon"
+	"github.com/ycornamusaz/summon/internal/command"
+	"github.com/ycornamusaz/summon/pkg/summon"
 )
 
 var (
@@ -16,7 +16,7 @@ var (
 )
 
 /* RunCLI starts defines and runs summon's command line interface
-*/
+ */
 func RunCLI() error {
 	app := cli.NewApp()
 	app.Name = "summon"
